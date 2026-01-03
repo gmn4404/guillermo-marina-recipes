@@ -5,18 +5,44 @@
 }
 
 body {
-    background-color: #E9967A;
+    background-color: #FFF4E6;
+    font-family: Arial, sans-serif;
+    color: #2D3436;
+}
+
+h1 {
+    color: #E17055;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+
+}
+
+h2 {
+  color: #00B894;          
+  border-bottom: 2px solid #FDCB6E;
+  margin: 20px auto 10px;
 }
 
 img {
-    width: auto;
-    text-align: center;
+    width: 20em;
+    margin: 10px auto 50px;
+    display: block;
 }
 
+a {
+  color: #0984E3;
+}
+
+ul, ol {
+  list-style-position: inside
+}
+
+
 .recipe-card {
-    width: 60em;    
+    width: 900px;    
     margin: 20px auto;
-    padding: 50px;
-    border: 5px solid black;
-    background-color: white;
+    padding: 24px;
+    border: 3px solid #E0E0E0;
+    background-color: #FFFFFF;
 }
